@@ -11,43 +11,29 @@ public class Main {
         System.out.println("╚═══════════════════════════════════════╝");
 
         do {
-            System.out.println("\nSeleccione una opción:");
-            System.out.println("1. Agregar pedido");
-            System.out.println("2. Mostrar pedidos");
-            System.out.println("3. Salir");
-            System.out.print("Opción: ");
+            System.out.println("╔═══════════════════════════════════════╗");
+            System.out.println("║            MENU PRINCIPAL             ║");
+            System.out.println("╠═══════════════════════════════════════╣");
+            System.out.println("║ 1. Registrar Pizza (push)             ║");
+            System.out.println("║ 2. Deshacer últimopedido (undo)       ║");
+            System.out.println("║ 3. Rehacer pedido (redo)              ║");
+            System.out.println("║ 4. Mostrar pedido actual (peek)       ║");
+            System.out.println("║ 5. Mostrar todos los pedidos          ║");
+            System.out.println("║ 6. Salir                              ║");
+            System.out.println("╚═══════════════════════════════════════╝");
+            System.out.print("Seleccione una opción: ");
+
+            while (!scanner.hasNextInt()) {
+                System.out.println("Por favor, ingrese un número válido.");
+                scanner.next(); 
+                }
             opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar el buffer
+            scanner.nextLine();
 
-            switch (opcion) {
-                case 1:
-                    System.out.print("Ingrese el nombre del cliente: ");
-                    String cliente = scanner.nextLine();
-
-                    System.out.print("Ingrese el nombre de la pizza: ");
-                    String nombrePizza = scanner.nextLine();
-
-                    String[] ingredientes = new String[3];
-                    for (int i = 0; i < 3; i++) {
-                        System.out.print("Ingrese el ingrediente " + (i + 1) + ": ");
-                        ingredientes[i] = scanner.nextLine();
-                    }
-
-                    Pizza pizza = new Pizza(nombrePizza, ingredientes);
-                    Pedido pedido = new Pedido(cliente, pizza);
-                    gestion.agregarPedido(pedido);
-                    System.out.println("Pedido agregado exitosamente.");
-                    break;
-
-                case 2:
-                    gestion.mostrarPedidos();
-                    break;
-
-                case 3:
-                    System.out.println("Saliendo del sistema. ¡Hasta luego!");
-                    break;
-
-                default:
-                    System.out.println("Opción no válida. Por favor, intente nuevamente.");
-            }
-        } while (opcion != 3);
+        switch (opcion) {
+            case 1:
+                System.out.print("\n Registrar nueva Pizza: ");
+                System.out.print("Ingrese el nombre de la pizza: ");
+                String nombre = scanner.nextLine().trim();
+                String[] ingredientes = new String[3];
+                
