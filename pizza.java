@@ -15,8 +15,8 @@ public class Pizza {
     public String[] getIngredientes(){
     return ingredientes;
 }
-@Override
-public String toString(){
-    return "Pizza: "+nombre+" Ingredientes: "+ingredientes[0]+", "+ingredientes[1]+", "+ingredientes[2];
-}
+    @Override
+    public String toString(){
+        return "Pizza: "+nombre+" Ingredientes: "+ingredientes[0]+", "+ingredientes[1]+", "+ingredientes[2];
+    }
 }
