@@ -46,11 +46,33 @@ public class Main {
                 break;
 
             case 2:
-                gestion.deshacerPedido();
+                gestion.deshacer();
                 break;
 
             case 3:
-                gestion.rehacerPedido();
+                gestion.rehacer();
                 break;
+
+            case 4:
+                gestion.mostrarPedidoActual();
+                break;
+
+            case 5:
+                gestion.mostrarTodosLosPedidos();
+                break;
+
+            case 6:
+                System.out.println("Cerrando gestion de pedidos. ¡Hasta luego!");
+                break;
+
+            default:
+                System.out.println("Opción no válida. Por favor, seleccione una opción del 1 al 6.");
+
+        }
+        } while (opcion != 6);
+        scanner.close();
+    }
+}
+
 
             
