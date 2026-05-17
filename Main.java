@@ -36,4 +36,21 @@ public class Main {
                 System.out.print("Ingrese el nombre de la pizza: ");
                 String nombre = scanner.nextLine().trim();
                 String[] ingredientes = new String[3];
-                
+                for (int i = 0; i < 3; i++) {
+                    System.out.print("Ingrediente " + (i + 1) + ": ");
+                    ingredientes[i] = scanner.nextLine().trim();
+                }
+
+                Pizza nuevaPizza = new Pizza(nombre, ingredientes);
+                gestion.registrarPedido(nuevaPizza);
+                break;
+
+            case 2:
+                gestion.deshacerPedido();
+                break;
+
+            case 3:
+                gestion.rehacerPedido();
+                break;
+
+            
