@@ -4,7 +4,7 @@ public class pizza {
 
 public pizza(String nombre, String[] ingredientes){
     this.nombre=nombre;
-    this.ingredientes=New String[3];
+    this.ingredientes=new String[3];
     for(int=i;i<3;i++){
         this.ingredientes[i]=ingredientes[i];
     }
@@ -12,6 +12,8 @@ public pizza(String nombre, String[] ingredientes){
 public String getNombre(){
     return nombre;
 }
-public String
+public String[] getIngredientes(){
+    return ingredientes;
+}
 }
 }
