@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         GestionPedidos gestion=new GestionPedidos();
-        in opcion;
+        int opcion;
 
         System.out.println("╔═══════════════════════════════════════╗");
         System.out.println("║    Sistema de gestión de pedidos      ║");
