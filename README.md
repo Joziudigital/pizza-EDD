@@ -15,7 +15,7 @@ IMAGENES DE TERMINAL EN DIFERENTES PROCESOS
     ![plot](./images/registro%202.png)
 
 **Registro del tercer pedido**
-    ![plot](./images/registro%203.png.png) 
+    ![plot](./images/registro%203.png) 
 
 **Lista de todos los pedidos registrados**
     ![plot](./images/mostrar%20todos%20los%20pedidos.png)
@@ -35,7 +35,7 @@ IMAGENES DE TERMINAL EN DIFERENTES PROCESOS
 **Opción de salida**
     ![plot](./images/opcion%20salir.png)
 
-    
+
 
 
 
