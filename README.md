@@ -15,35 +15,35 @@ IMAGENES DE TERMINAL EN DIFERENTES PROCESOS
 
 **Registro del segundo pedido**
 
-    ![plot](./images/registro%202.png)
+![plot](./images/registro%202.png)
 
 **Registro del tercer pedido**
 
-    ![plot](./images/registro%203.png) 
+![plot](./images/registro%203.png) 
 
 **Lista de todos los pedidos registrados**
 
-    ![plot](./images/mostrar%20todos%20los%20pedidos.png)
+![plot](./images/mostrar%20todos%20los%20pedidos.png)
 
 **Deshacer el último pedido**
 
-    ![plot](./images/deshacer%20ultimo%20pedido.png)
+![plot](./images/deshacer%20ultimo%20pedido.png)
 
 **Mostrar el último pedido**
 
-    ![plot](./images/mostrar%20pedido%20actual.png)
+![plot](./images/mostrar%20pedido%20actual.png)
 
 **Rehacer el último pedido**
 
-    ![plot](./images/rehacer%20ultimo%20pedido.png)
+![plot](./images/rehacer%20ultimo%20pedido.png)
 
 **Opcion equivocada**
 
-    ![plot](./images/opcion%20diferente%20al%20menu.png)
+![plot](./images/opcion%20diferente%20al%20menu.png)
 
 **Opción de salida**
 
-    ![plot](./images/opcion%20salir.png)
+![plot](./images/opcion%20salir.png)
 
 
 
