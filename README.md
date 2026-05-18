@@ -6,33 +6,43 @@ El objetivo de la actividad es crear una estructura de arreglos y listas para al
 IMAGENES DE TERMINAL EN DIFERENTES PROCESOS
 
 **Menu principal**
+
     ![plot](./images/menu%20principal.png)
 
 **Registro del primer pedido**
+
     ![plot](./images/registro%201.png)
 
 **Registro del segundo pedido**
+
     ![plot](./images/registro%202.png)
 
 **Registro del tercer pedido**
+
     ![plot](./images/registro%203.png) 
 
 **Lista de todos los pedidos registrados**
+
     ![plot](./images/mostrar%20todos%20los%20pedidos.png)
 
 **Deshacer el último pedido**
+
     ![plot](./images/deshacer%20ultimo%20pedido.png)
 
 **Mostrar el último pedido**
+
     ![plot](./images/mostrar%20pedido%20actual.png)
 
 **Rehacer el último pedido**
+
     ![plot](./images/rehacer%20ultimo%20pedido.png)
 
 **Opcion equivocada**
+
     ![plot](./images/opcion%20diferente%20al%20menu.png)
 
 **Opción de salida**
+
     ![plot](./images/opcion%20salir.png)
 
 
