@@ -67,7 +67,7 @@ public class Main {
                 break;
 
             default:
-                System.out.println("Opción no válida. Por favor, seleccione una opción del 1 al 6.");
+                System.out.println("Opción no válida. Por favor, seleccione una opción del 0 al 5.");
 
         }
         } while (opcion != 0);
