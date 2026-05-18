@@ -24,4 +24,25 @@ public class GestionPedidos {
         pilaRedo.push(pizzaDeshecha);
         System.out.println("\n Pedido deshecho: " + pizzaDeshecha.getNombre());
     }
+
+    public void rehacer(){
+        if (pilaRedo.isEmpty()) {
+            System.out.println("\n No hay pedidos para rehacer.");
+            return;
+        }
+        Pizza pizzaRehecha = pilaRedo.pop();
+        pilaUndo.push(pizzaRehecha);
+        System.out.println("\n Pedido rehecho: " + pizzaRehecha.getNombre());
+    }
+
+    public void mostrarPedidoActual(){
+        if (pilaUndo.isEmpty()) {
+            System.out.println("\n No hay pedidos activos.");
+            return;
+        }
+        System.out.println("\n Pedido actual (tope de la pila)" );
+        System.out.println("" + pilaUndo.peek());
+    }
+
+    
 }
