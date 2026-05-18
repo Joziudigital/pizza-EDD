@@ -48,4 +48,15 @@ IMAGENES DE TERMINAL EN DIFERENTES PROCESOS
 
 **VIDEO EXPLICATIVO**
 
+Actividad 2 "Estructura de datos" - Watch Video
+
+<div>
+    <a href="https://www.loom.com/share/97c3b8cf5c45433c83bc770b626b09eb">
+      <p>Actividad 2 "Estructura de datos" - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/97c3b8cf5c45433c83bc770b626b09eb">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/97c3b8cf5c45433c83bc770b626b09eb-ab422d99a16b2ac6-full-play.gif#t=0.1">
+    </a>
+  </div>
+
 https://www.loom.com/embed/97c3b8cf5c45433c83bc770b626b09eb
