@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println("╔═══════════════════════════════════════╗");
         System.out.println("║    Sistema de gestión de pedidos      ║");
+        System.out.println("║             PIZZA-TRACK               ║");
         System.out.println("╚═══════════════════════════════════════╝");
 
         do {
