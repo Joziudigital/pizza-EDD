@@ -33,6 +33,6 @@ public class PilaManual(){
         Pizza pizzaRetirada=tope.dato;
         tope=tope.siguiente;
         tamaño--;
-        return pizzaRetiradaa;
+        return pizzaRetirada;
     }
 }
