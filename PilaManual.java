@@ -9,7 +9,7 @@ class Nodo {
     
 }
 
-public class PilaManual(){
+public class PilaManual{
 
     private Nodo tope;
     private int tamaño;
