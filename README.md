@@ -6,7 +6,7 @@ El objetivo de la actividad es crear una estructura de arreglos y listas para al
 IMAGENES DE TERMINAL EN DIFERENTES PROCESOS
 
     -Menu principal 
-    (images/menu principal.png)
+    ![Texto alternativo](images/menu principal.png)
     -Registro del primer pedido 
     (images/registro 1.png)
     -Registro del segundo pedido
