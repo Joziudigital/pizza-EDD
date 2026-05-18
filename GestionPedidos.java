@@ -1,9 +1,12 @@
 public class GestionPedidos {
+    
     private PilaManual pilaUndo;
     private PilaManual pilaRedo;
+
+
     public GestionPedidos(){
-        pilaUndo=new PilaManual();
-        pilaRedo=new PilaManual();
+        pilaUndo = new PilaManual();
+        pilaRedo = new PilaManual();
     }
 
     public void registrarPedido(Pizza pizza){
