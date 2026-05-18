@@ -25,4 +25,14 @@ public class PilaManual(){
         tope=nuevoNodo;
         tamaño++;
     }
+
+    public Pizza pop(){
+        if (isEmpty()) {
+            return null;
+        }
+        Pizza pizzaRetirada=tope.dato;
+        tope=tope.siguiente;
+        tamaño--;
+        return pizzaRetiradaa;
+    }
 }
