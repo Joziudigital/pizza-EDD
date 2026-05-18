@@ -35,4 +35,33 @@ public class PilaManual(){
         tamaño--;
         return pizzaRetirada;
     }
+
+    public Pizza peek(){
+        if (isEmpty()) {
+            return null;
+        }
+        return tope.dato;
+    }
+
+    public boolean isEmpty(){
+        return tope==null;
+    }
+
+    public int getTamaño(){
+        return tamaño;
+    }
+
+    public void mostrarTodos(){
+        if(isEmpty()){
+            System.out.println("La pila esta vacía.");
+            return;
+        }
+        Nodo actual=tope;
+        int posicion=1;
+        while(actual!=null){
+            System.out.println(posicion+". "+actual.dato);
+            actual=actual.siguiente;
+            posicion++;
+        }
+    }
 }
