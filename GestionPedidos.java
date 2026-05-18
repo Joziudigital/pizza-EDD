@@ -44,5 +44,9 @@ public class GestionPedidos {
         System.out.println("" + pilaUndo.peek());
     }
 
-    
+    public void mostrarTodosLosPedidos(){
+        System.out.println("\n Pedidos activos (tope):");
+        pilaUndo.mostrarTodos();
+        System.out.println("\n Pedidos deshechos en espera de rehacer:" + pilaRedo.getTamaño());
+    }
 }
