@@ -1,4 +1,4 @@
-public class Nodo {
+class Nodo {
     Pizza dato;
     Nodo siguiente;
 
