@@ -7,11 +7,11 @@ IMAGENES DE TERMINAL EN DIFERENTES PROCESOS
 
 **Menu principal**
 
-    ![plot](./images/menu%20principal.png)
+![plot](./images/menu%20principal.png)
 
 **Registro del primer pedido**
 
-    ![plot](./images/registro%201.png)
+![plot](./images/registro%201.png)
 
 **Registro del segundo pedido**
 
