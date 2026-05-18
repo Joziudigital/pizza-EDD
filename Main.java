@@ -20,7 +20,7 @@ public class Main {
             System.out.println("║ 3. Rehacer pedido (redo)              ║");
             System.out.println("║ 4. Mostrar pedido actual (peek)       ║");
             System.out.println("║ 5. Mostrar todos los pedidos          ║");
-            System.out.println("║ 6. Salir                              ║");
+            System.out.println("║ 0. Salir                              ║");
             System.out.println("╚═══════════════════════════════════════╝");
             System.out.print("Seleccione una opción: ");
 
@@ -62,7 +62,7 @@ public class Main {
                 gestion.mostrarTodosLosPedidos();
                 break;
 
-            case 6:
+            case 0:
                 System.out.println("Cerrando gestion de pedidos. ¡Hasta luego!");
                 break;
 
@@ -70,7 +70,7 @@ public class Main {
                 System.out.println("Opción no válida. Por favor, seleccione una opción del 1 al 6.");
 
         }
-        } while (opcion != 6);
+        } while (opcion != 0);
         scanner.close();
     }
 }
