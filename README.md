@@ -48,4 +48,4 @@ IMAGENES DE TERMINAL EN DIFERENTES PROCESOS
 
 **VIDEO EXPLICATIVO**
 
-![plot](<iframe width="640" height="360" src="https://www.loom.com/embed/97c3b8cf5c45433c83bc770b626b09eb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>)
+![plot](https://www.loom.com/embed/97c3b8cf5c45433c83bc770b626b09eb)
